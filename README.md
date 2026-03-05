@@ -8,14 +8,14 @@
   <a href="#">
     <img src="https://img.shields.io/badge/Live%20Demo-Vercel-brightgreen" alt="Live Demo">
   </a>
-  <a href="https://github.com/divyanshu02raj/Nexus-Social-App">
+  <a href="https://github.com/CaSh007s/nexus">
     <img src="https://img.shields.io/badge/MERN-Stack-blue" alt="MERN Stack">
   </a>
-  <a href="https://github.com/divyanshu02raj/Nexus-Social-App/stargazers">
-    <img src="https://img.shields.io/github/stars/divyanshu02raj/Nexus-Social-App?style=social" alt="GitHub stars">
+  <a href="https://github.com/CaSh007s/nexus/stargazers">
+    <img src="https://img.shields.io/github/stars/CaSh007s/nexus?style=social" alt="GitHub stars">
   </a>
-  <a href="https://github.com/divyanshu02raj/Nexus-Social-App/network/members">
-    <img src="https://img.shields.io/github/forks/divyanshu02raj/Nexus-Social-App?style=social" alt="GitHub forks">
+  <a href="https://github.com/CaSh007s/nexus/network/members">
+    <img src="https://img.shields.io/github/forks/CaSh007s/nexus?style=social" alt="GitHub forks">
   </a>
 </p>
 
@@ -34,7 +34,6 @@
   <img src="https://img.shields.io/badge/Backend-Render-purple?logo=render" alt="Render">
 </p>
 
-
 <p align="center">
   A next-generation social media platform built on the MERN stack. Nexus features a stunning glassmorphic UI, real-time messaging, ephemeral stories, and a robust social graph, designed to connect people in a modern, engaging environment.
 </p>
@@ -42,6 +41,7 @@
 ---
 
 ## Table of Contents
+
 - [Demo](#demo)
 - [Key Features](#key-features)
 - [Technology Stack](#technology-stack)
@@ -56,8 +56,8 @@
 
 ## Demo
 
-* **Live Deployed Site:** [https://nexus-social-app.vercel.app/](https://nexus-social-app.vercel.app/)
-* **GitHub Repository:** [https://github.com/divyanshu02raj/Nexus-Social-App](https://github.com/divyanshu02raj/Nexus-Social-App)
+- **Live Deployed Site:** [https://nexus-social-app.vercel.app/](https://nexus-social-app.vercel.app/)
+- **GitHub Repository:** [https://github.com/CaSh007s/nexus](https://github.com/CaSh007s/nexus)
 
 ---
 
@@ -65,23 +65,23 @@
 
 Nexus provides a comprehensive social experience with a focus on aesthetics, performance, and real-time interaction.
 
-* **Modern & Premium UI:**
-    * **Glassmorphism Design:** A visually striking interface using frosted glass effects, vibrant gradients, and smooth **Framer Motion** animations.
-    * **Responsive Layout:** A 3-column layout that adapts seamlessly to all screen sizes, featuring a dedicated sidebar for navigation and trending content.
-* **Real-Time Communication:**
-    * **Instant Messaging:** Built with **Socket.IO**, allowing users to chat in real-time with typing indicators and online status updates.
-    * **Media Sharing:** Users can share images directly within chats, powered by **Cloudinary**.
-* **Social Interaction:**
-    * **Posts & Feed:** Create rich posts with images, captions, and location tags. Interact with content through likes, comments, and saving posts.
-    * **Stories:** Share ephemeral moments that disappear after 24 hours. Includes view counting and liking features.
-    * **Follow System:** A robust follow/unfollow mechanism with support for **Private Accounts** and follow requests.
-* **Discovery & Trending:**
-    * **Trending Feed:** Real-time algorithm to highlight the most popular posts and discussions.
-    * **Suggested Users:** Intelligent recommendations for "Who to follow" based on network connections.
-    * **Location Services:** Integrated **OpenStreetMap** for location tagging and autocomplete in posts and profiles.
-* **Security & Privacy:**
-    * **Secure Auth:** JWT-based authentication with encrypted passwords and secure cookie management.
-    * **Private Profiles:** Users can toggle their account to private, requiring approval for new followers.
+- **Modern & Premium UI:**
+  - **Glassmorphism Design:** A visually striking interface using frosted glass effects, vibrant gradients, and smooth **Framer Motion** animations.
+  - **Responsive Layout:** A 3-column layout that adapts seamlessly to all screen sizes, featuring a dedicated sidebar for navigation and trending content.
+- **Real-Time Communication:**
+  - **Instant Messaging:** Built with **Socket.IO**, allowing users to chat in real-time with typing indicators and online status updates.
+  - **Media Sharing:** Users can share images directly within chats, powered by **Cloudinary**.
+- **Social Interaction:**
+  - **Posts & Feed:** Create rich posts with images, captions, and location tags. Interact with content through likes, comments, and saving posts.
+  - **Stories:** Share ephemeral moments that disappear after 24 hours. Includes view counting and liking features.
+  - **Follow System:** A robust follow/unfollow mechanism with support for **Private Accounts** and follow requests.
+- **Discovery & Trending:**
+  - **Trending Feed:** Real-time algorithm to highlight the most popular posts and discussions.
+  - **Suggested Users:** Intelligent recommendations for "Who to follow" based on network connections.
+  - **Location Services:** Integrated **OpenStreetMap** for location tagging and autocomplete in posts and profiles.
+- **Security & Privacy:**
+  - **Secure Auth:** JWT-based authentication with encrypted passwords and secure cookie management.
+  - **Private Profiles:** Users can toggle their account to private, requiring approval for new followers.
 
 ---
 
@@ -89,13 +89,13 @@ Nexus provides a comprehensive social experience with a focus on aesthetics, per
 
 The project utilizes a modern MERN stack with a decoupled frontend and backend architecture.
 
-| Category | Technology |
-| :--- | :--- |
-| **Frontend** | `React`, `Redux Toolkit`, `Tailwind CSS`, `Framer Motion`, `Socket.IO Client`, `Axios` |
-| **Backend** | `Node.js`, `Express.js`, `Socket.IO`, `JWT` |
-| **Database** | `MongoDB` with `Mongoose` |
-| **Services** | `Cloudinary` (Media Storage), `OpenStreetMap` (Location Data) |
-| **Deployment**| Frontend on **Vercel**, Backend on **Render** |
+| Category       | Technology                                                                             |
+| :------------- | :------------------------------------------------------------------------------------- |
+| **Frontend**   | `React`, `Redux Toolkit`, `Tailwind CSS`, `Framer Motion`, `Socket.IO Client`, `Axios` |
+| **Backend**    | `Node.js`, `Express.js`, `Socket.IO`, `JWT`                                            |
+| **Database**   | `MongoDB` with `Mongoose`                                                              |
+| **Services**   | `Cloudinary` (Media Storage), `OpenStreetMap` (Location Data)                          |
+| **Deployment** | Frontend on **Vercel**, Backend on **Render**                                          |
 
 ---
 
@@ -105,60 +105,61 @@ To get a local copy up and running, please follow these steps.
 
 ### Prerequisites
 
-* Node.js (v18 or newer recommended)
-* npm (or yarn)
-* A MongoDB database instance (local or MongoDB Atlas)
-* A Cloudinary account for image storage
+- Node.js (v18 or newer recommended)
+- npm (or yarn)
+- A MongoDB database instance (local or MongoDB Atlas)
+- A Cloudinary account for image storage
 
 ### Installation & Setup
 
 1.  **Clone the Repository:**
+
     ```bash
-    git clone https://github.com/divyanshu02raj/Nexus-Social-App.git
+    git clone https://github.com/CaSh007s/nexus.git
     cd Nexus-Social-App
     ```
 
 2.  **Backend Setup:**
-    * Navigate to the backend directory:
-        ```bash
-        cd backend
-        ```
-    * Install dependencies:
-        ```bash
-        npm install
-        ```
-    * Create a `.env` file and populate it with your keys:
-        ```env
-        PORT=8000
-        MONGODB_URI=your_mongodb_connection_string
-        JWT_SECRET=your_super_secret_jwt_key
-        FRONTEND_URL=http://localhost:5173
-        CLOUDINARY_CLOUD_NAME=your_cloud_name
-        CLOUDINARY_API_KEY=your_api_key
-        CLOUDINARY_API_SECRET=your_api_secret
-        ```
-    * Start the backend server:
-        ```bash
-        npm run server
-        ```
+    - Navigate to the backend directory:
+      ```bash
+      cd backend
+      ```
+    - Install dependencies:
+      ```bash
+      npm install
+      ```
+    - Create a `.env` file and populate it with your keys:
+      ```env
+      PORT=8000
+      MONGODB_URI=your_mongodb_connection_string
+      JWT_SECRET=your_super_secret_jwt_key
+      FRONTEND_URL=http://localhost:5173
+      CLOUDINARY_CLOUD_NAME=your_cloud_name
+      CLOUDINARY_API_KEY=your_api_key
+      CLOUDINARY_API_SECRET=your_api_secret
+      ```
+    - Start the backend server:
+      ```bash
+      npm run server
+      ```
 
 3.  **Frontend Setup:**
-    * Open a new terminal and navigate to the frontend directory:
-        ```bash
-        cd frontend
-        ```
-    * Install dependencies:
-        ```bash
-        npm install
-        ```
-    * Create a `.env` file and add the following variables:
-        ```env
-        VITE_API_URL=http://localhost:8000
-        ```
-    * Start the frontend development server:
-        ```bash
-        npm run dev
-        ```
+    - Open a new terminal and navigate to the frontend directory:
+      ```bash
+      cd frontend
+      ```
+    - Install dependencies:
+      ```bash
+      npm install
+      ```
+    - Create a `.env` file and add the following variables:
+      ```env
+      VITE_API_URL=http://localhost:8000
+      ```
+    - Start the frontend development server:
+      ```bash
+      npm run dev
+      ```
 
 ---
 
@@ -245,18 +246,14 @@ Nexus-Social-App/
 
 ---
 
-
-
 ## Future Work
 
 While the core functionality is complete, there are several exciting features that could be added to enhance the platform:
 
-* **Video Calls:** Implement WebRTC for peer-to-peer video and voice calling.
-* **Group Chats:** Create group conversations for communities.
-* **Advanced Search:** Filter search results by tags, location, and people.
-* **Admin Dashboard:** A panel for moderation and user management.
-
-
+- **Video Calls:** Implement WebRTC for peer-to-peer video and voice calling.
+- **Group Chats:** Create group conversations for communities.
+- **Advanced Search:** Filter search results by tags, location, and people.
+- **Admin Dashboard:** A panel for moderation and user management.
 
 ## Contributing
 
@@ -273,8 +270,9 @@ Contributions are what make the open-source community such an amazing place to l
 ## Contributors
 
 Made with ❤️ by:
-- **Divyanshu Raj** ([@divyanshu02raj](https://github.com/divyanshu02raj)) | [LinkedIn](https://www.linkedin.com/in/div02raj)
+
 - **Kalash Pratap Gaur** ([@CaSh007s](https://github.com/CaSh007s)) | [LinkedIn](https://www.linkedin.com/in/cash007s)
+- **Divyanshu Raj** ([@divyanshu02raj](https://github.com/divyanshu02raj)) | [LinkedIn](https://www.linkedin.com/in/div02raj)
 - **Priya Sah** ([@PRIYA300705](https://github.com/PRIYA300705)) | [LinkedIn](https://www.linkedin.com/in/priyasah)
 - **Krishna Sahu** ([@sahukrishna27](https://github.com/sahukrishna27)) | [LinkedIn](https://www.linkedin.com/in/krishna-sahu-3867ab241)
 
@@ -284,17 +282,17 @@ Made with ❤️ by:
 
 Special thanks to the open-source community and the creators of the libraries used in this project:
 
-* React & Redux Toolkit
-* Socket.IO
-* Tailwind CSS
-* Framer Motion
+- React & Redux Toolkit
+- Socket.IO
+- Tailwind CSS
+- Framer Motion
 
 ---
 
 ## Contact
 
-Divyanshu Raj
+Kalash Pratap Gaur
 
-* **LinkedIn:** [https://www.linkedin.com/in/div02raj](https://www.linkedin.com/in/div02raj)
-* **GitHub:** [https://github.com/divyanshu02raj](https://github.com/divyanshu02raj)
-* **Email:** [divyanshuraj2206@gmail.com](mailto:divyanshuraj2206@gmail.com)
+- **LinkedIn:** [https://www.linkedin.com/in/cash007s](https://www.linkedin.com/in/cash007s)
+- **GitHub:** [https://github.com/CaSh007s](https://github.com/CaSh007s)
+- **Email:** [kalashpgaur76@gmail.com](mailto:kalashpgaur76@gmail.com)
