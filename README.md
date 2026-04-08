@@ -170,12 +170,12 @@ To get a local copy up and running, please follow these steps.
     <td align="center" width="50%">
       <b>Home Feed</b><br>
       <i>The main feed with glassmorphic posts and stories.</i><br><br>
-      <img src="screenshots/home-feed.png" alt="Home Feed" width="90%">
+      <img src="screenshots/home-feed%20copy.png" alt="Home Feed" width="90%">
     </td>
     <td align="center" width="50%">
       <b>Chat Interface</b><br>
       <i>Real-time messaging with media support.</i><br><br>
-      <img src="screenshots/chat.png" alt="Chat Interface" width="90%">
+      <img src="screenshots/chat-interface.png" alt="Chat Interface" width="90%">
     </td>
   </tr>
   
@@ -183,12 +183,12 @@ To get a local copy up and running, please follow these steps.
     <td align="center">
       <b>User Profile</b><br>
       <i>Profile page with posts, bio, and stats.</i><br><br>
-      <img src="screenshots/profile.png" alt="User Profile" width="90%">
+      <img src="screenshots/user-profile.png" alt="User Profile" width="90%">
     </td>
     <td align="center">
       <b>Settings Dashboard</b><br>
       <i>Manage account, security, and privacy.</i><br><br>
-      <img src="screenshots/settings.png" alt="Settings" width="90%">
+      <img src="screenshots/settings-modal.png" alt="Settings" width="90%">
     </td>
   </tr>
 
@@ -196,12 +196,12 @@ To get a local copy up and running, please follow these steps.
     <td align="center">
       <b>Create Post</b><br>
       <i>Rich text editor with image and location support.</i><br><br>
-      <img src="screenshots/create-post.png" alt="Create Post" width="90%">
+      <img src="screenshots/create-post%20copy.png" alt="Create Post" width="90%">
     </td>
     <td align="center">
-      <b>Dark Mode</b><br>
-      <i>Sleek dark theme for low-light usage.</i><br><br>
-      <img src="screenshots/dark-mode.png" alt="Dark Mode" width="90%">
+      <b>Light Theme</b><br>
+      <i>Elegant light mode interface for better day-time visibility.</i><br><br>
+      <img src="screenshots/light-theme.png" alt="Light Theme" width="90%">
     </td>
   </tr>
 
